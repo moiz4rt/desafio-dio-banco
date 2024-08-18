@@ -1,6 +1,6 @@
 package com.banco;
 
-abstract class Conta implements IConta
+public abstract class Conta implements IConta
 {
 
     private static int SEQUENCIA = 1;
@@ -57,5 +57,10 @@ abstract class Conta implements IConta
     public double getSaldo()
     {
         return saldo;
+    }
+
+    public Cliente getCliente()
+    {
+        return cliente;
     }
 }

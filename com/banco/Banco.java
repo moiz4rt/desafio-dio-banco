@@ -37,6 +37,16 @@ public class Banco
         }
     }
 
+    public Conta getConta(Cliente cliente)
+    {
+        for(Conta conta : contas)
+        {
+            if(conta.getCliente().equals(cliente))
+                return conta;
+        }
+        return null;
+    }
+
     public String getNome()
     {
         return nome;

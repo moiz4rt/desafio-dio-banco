@@ -1,6 +1,6 @@
 package com.banco;
 
-class ContaCorrente extends Conta
+public class ContaCorrente extends Conta
 {
     public ContaCorrente(Cliente cliente, int agencia)
     {

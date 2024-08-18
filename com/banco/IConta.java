@@ -1,6 +1,6 @@
 package com.banco;
 
-interface IConta
+public interface IConta
 {
     void sacar(double valor);
 
